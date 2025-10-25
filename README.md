@@ -5,7 +5,7 @@ This program is written in C for Linux/GNU systems and utilizes the ncurses libr
 ## INSTALL
 1. Clone the repository & cd into it  
 ```
-git clone https://github.com/CatPeep/vagor.git && cd vagor
+git clone https://github.com/catnipsta/vagor.git && cd vagor
 ```  
   
 2. Compile (gcc and ncurses must be installed)  
