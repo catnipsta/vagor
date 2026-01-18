@@ -206,7 +206,7 @@ int main(void){
 	while(1){
 		draw();
 		if(floor(px) != floor(fx) || floor(py) != floor(fy)) walk();
-		else genmaze((int)px);
+		else genmaze();
 	}
 
 	endwin();
