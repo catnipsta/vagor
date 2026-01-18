@@ -112,12 +112,12 @@ void walk(){
 		case 2:
 			if(abs(floor(pa*100)-157*pdir) > 0.0002*ts*tp)pa-=0.000001*ts*tp;
 			else{pa = 1.57*pdir; m=1;}
-			if(pa < 0)pa+=2*3.14;
+			if(pa < 0)pa+=2*pi;
 			break;
 		case 3:
 			if(abs(floor(pa*100)-157*pdir) > 0.0002*ts*tp)pa+=0.000001*ts*tp;
 			else{pa = 1.57*pdir; m=1;}
-			if(pa > 2*3.14)pa-=2*3.14;
+			if(pa > 2*pi)pa-=2*pi;
 			break;
 	}
 }
